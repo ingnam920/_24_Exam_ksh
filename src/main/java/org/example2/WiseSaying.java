@@ -13,4 +13,42 @@ public class WiseSaying {
     this.content = content;
     this.author = author;
   }
+
+  public WiseSaying(int id, String name, String auther) {
+    this.id = id;
+    this.content = content;
+    this.author = author;
+  }
+
+  public int getId() {
+    return id;
+  }
+
+  public String getRegDate() {
+    return regDate;
+  }
+
+  public String getContent() {
+    return content;
+  }
+
+  public String getAuthor() {
+    return author;
+  }
+
+  public void setId(int id) {
+    this.id = id;
+  }
+
+  public void setRegDate(String regDate) {
+    this.regDate = regDate;
+  }
+
+  public void setContent(String content) {
+    this.content = content;
+  }
+
+  public void setAuthor(String author) {
+    this.author = author;
+  }
 }
